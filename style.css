@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input:first-child {
+  margin-bottom: 20px;
+}
+
+.suc {
+  display: none;
+}
+
+button {
+  margin-top: 20px;
+}
